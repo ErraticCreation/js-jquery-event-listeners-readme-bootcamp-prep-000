@@ -6,7 +6,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', () => {
-    this.addClass
+    this.addClass('tasty');
   })
 }
 
