@@ -18,7 +18,9 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown');
+  $('input').on('keydown', () => {
+    if (key.which == )
+  });
 }
 
 $(document).ready(function(){
