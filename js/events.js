@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function submitIt() {
-  $('form').on("submit", () => {
+  $('form').on('submit', () => {
     alert('Your form is going to be sumbitted now.');
   }) 
 }
